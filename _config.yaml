@@ -5,4 +5,4 @@ description: >- # ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://aveyilagrun.github.io"
 github_username:  aveyilagrun
-theme: minima
+theme: minimal-mistakes-jekyll
