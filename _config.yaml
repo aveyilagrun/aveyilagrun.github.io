@@ -1,0 +1,8 @@
+title: aveyilagrun
+email: az.nurgaliyeva@gmail.com
+description: >- # ignore newlines until "baseurl:"
+  Personal website.
+baseurl: ""
+url: "http://aveyilagrun.github.io"
+github_username:  aveyilagrun
+theme: minima
