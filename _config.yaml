@@ -5,6 +5,3 @@ description: >- # ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://aveyilagrun.github.io"
 github_username:  aveyilagrun
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-include-cache
