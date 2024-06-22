@@ -12036,7 +12036,7 @@ iframe[data-uk-cover] {
   *::before,
   *::after {
     background: transparent !important;
-    color: black !important;
+    color: maroon !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
