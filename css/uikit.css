@@ -783,7 +783,7 @@ a.uk-link-reset,
   color: #1e87f0 !important;
 }
 .uk-list-secondary > ::before {
-  color: #004921 !important;
+  color: #222 !important;
 }
 /* Image bullet modifier
  ========================================================================== */
@@ -1987,7 +1987,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-button-secondary {
-  background-color: #004921;
+  background-color: #222;
   color: #ededed;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -2289,7 +2289,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-section-secondary {
-  background: #004921;
+  background: #222;
 }
 /* Overlap modifier
  ========================================================================== */
@@ -2547,7 +2547,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-tile-secondary {
-  background-color: #004921;
+  background-color: #222;
 }
 /* ========================================================================
    Component: Card
@@ -2698,7 +2698,7 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 .uk-card-secondary.uk-card-hover:hover {
-  background-color: #004921;
+  background-color: #222;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /* Size modifier
@@ -2898,7 +2898,7 @@ select.uk-form-width-xsmall {
  */
 .uk-marker {
   padding: 5px;
-  background: #004921;
+  background: #222;
   color: #fff;
   border-radius: 500px;
 }
@@ -3999,7 +3999,7 @@ select.uk-form-width-xsmall {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #004921;
+  background: #222;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -5171,7 +5171,7 @@ ul.uk-nav-sub {
  * Nav items
  */
 .uk-navbar-nav > li > a {
-  color: #004921;
+  color: #999;
   text-transform: uppercase;
   transition: 0.1s ease-in-out;
   transition-property: color, background-color;
@@ -7146,7 +7146,7 @@ ul.uk-nav-sub {
   color: #1e87f0 !important;
 }
 .uk-text-secondary {
-  color: #004921 !important;
+  color: #222 !important;
 }
 .uk-text-success {
   color: #32d296 !important;
@@ -7475,7 +7475,7 @@ iframe[data-uk-cover] {
   background-color: #1e87f0;
 }
 .uk-background-secondary {
-  background-color: #004921;
+  background-color: #222;
 }
 /* Size
  ========================================================================== */
