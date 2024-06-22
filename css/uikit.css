@@ -225,7 +225,7 @@ h6,
   margin: 0 0 20px 0;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: normal;
-  color: #333;
+  color: #e5e5e5;
   text-transform: none;
 }
 /* Add margin if adjacent element */
@@ -350,7 +350,7 @@ blockquote {
   font-size: 1.25rem;
   line-height: 1.5;
   font-style: italic;
-  color: #333;
+  color: #e5e5e5;
 }
 /* Add margin if adjacent element */
 * + blockquote {
@@ -397,7 +397,7 @@ pre code {
   outline: none;
 }
 :focus-visible {
-  outline: 2px dotted #333;
+  outline: 2px dotted #e5e5e5;
 }
 /* Selection pseudo-element
  ========================================================================== */
@@ -777,7 +777,7 @@ a.uk-link-reset,
   color: #999 !important;
 }
 .uk-list-emphasis > ::before {
-  color: #333 !important;
+  color: #e5e5e5 !important;
 }
 .uk-list-primary > ::before {
   color: #1e87f0 !important;
@@ -870,7 +870,7 @@ a.uk-link-reset,
  * Term
  */
 .uk-description-list > dt {
-  color: #333;
+  color: #e5e5e5;
   font-size: 0.875rem;
   font-weight: normal;
   text-transform: uppercase;
@@ -1789,7 +1789,7 @@ select.uk-form-width-xsmall {
 /* Label
  ========================================================================== */
 .uk-form-label {
-  color: #333;
+  color: #e5e5e5;
   font-size: 0.875rem;
 }
 /* Layout
@@ -1948,20 +1948,20 @@ select.uk-form-width-xsmall {
  */
 .uk-button-default {
   background-color: transparent;
-  color: #333;
+  color: #e5e5e5;
   border: 1px solid #e5e5e5;
 }
 /* Hover */
 .uk-button-default:hover {
   background-color: transparent;
-  color: #333;
+  color: #e5e5e5;
   border-color: #b2b2b2;
 }
 /* OnClick + Active */
 .uk-button-default:active,
 .uk-button-default.uk-active {
   background-color: transparent;
-  color: #333;
+  color: #e5e5e5;
   border-color: #999999;
 }
 /*
@@ -1994,7 +1994,7 @@ select.uk-form-width-xsmall {
 }
 /* Hover */
 .uk-button-secondary:hover {
-  background-color: #333;
+  background-color: #e5e5e5;
   color: #fff;
 }
 /* OnClick + Active */
@@ -2059,7 +2059,7 @@ select.uk-form-width-xsmall {
   line-height: 1.5;
   background: none;
   /* 2 */
-  color: #333;
+  color: #e5e5e5;
   position: relative;
   transition: 300ms;
 }
@@ -2069,7 +2069,7 @@ select.uk-form-width-xsmall {
   bottom: 0;
   left: 0;
   right: 100%;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #e5e5e5;
   transition: right 0.3s ease-out;
 }
 /* Hover */
@@ -2097,7 +2097,7 @@ select.uk-form-width-xsmall {
   line-height: 1.5;
   background: none;
   /* 2 */
-  color: #333;
+  color: #e5e5e5;
 }
 /* Hover */
 .uk-button-link:hover {
@@ -2656,7 +2656,7 @@ select.uk-form-width-xsmall {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 .uk-card-default .uk-card-title {
-  color: #333;
+  color: #e5e5e5;
 }
 .uk-card-default.uk-card-hover:hover {
   background-color: #fff;
@@ -2888,7 +2888,7 @@ select.uk-form-width-xsmall {
 }
 /* OnClick */
 .uk-totop:active {
-  color: #333;
+  color: #e5e5e5;
 }
 /* ========================================================================
    Component: Marker
@@ -3451,7 +3451,7 @@ select.uk-form-width-xsmall {
   display: block;
   font-size: 1.25rem;
   line-height: 1.4;
-  color: #333;
+  color: #e5e5e5;
   overflow: hidden;
 }
 .uk-accordion-title::before {
@@ -3569,7 +3569,7 @@ select.uk-form-width-xsmall {
  * Header
  */
 .uk-dropdown-nav .uk-nav-header {
-  color: #333;
+  color: #e5e5e5;
 }
 /*
  * Divider
@@ -4934,7 +4934,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-nav-default > li.uk-active > a {
-  color: #333;
+  color: #e5e5e5;
 }
 /*
  * Subtitle
@@ -4946,7 +4946,7 @@ ul.uk-nav-sub {
  * Header
  */
 .uk-nav-default .uk-nav-header {
-  color: #333;
+  color: #e5e5e5;
 }
 /*
  * Divider
@@ -4964,7 +4964,7 @@ ul.uk-nav-sub {
   color: #666;
 }
 .uk-nav-default .uk-nav-sub li.uk-active > a {
-  color: #333;
+  color: #e5e5e5;
 }
 /* Primary modifier
  ========================================================================== */
@@ -4982,7 +4982,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-nav-primary > li.uk-active > a {
-  color: #333;
+  color: #e5e5e5;
 }
 /*
  * Subtitle
@@ -4994,7 +4994,7 @@ ul.uk-nav-sub {
  * Header
  */
 .uk-nav-primary .uk-nav-header {
-  color: #333;
+  color: #e5e5e5;
 }
 /*
  * Divider
@@ -5012,7 +5012,7 @@ ul.uk-nav-sub {
   color: #666;
 }
 .uk-nav-primary .uk-nav-sub li.uk-active > a {
-  color: #333;
+  color: #e5e5e5;
 }
 /* Alignment modifier
  ========================================================================== */
@@ -5186,11 +5186,11 @@ ul.uk-nav-sub {
 }
 /* OnClick */
 .uk-navbar-nav > li > a:active {
-  color: #333;
+  color: #e5e5e5;
 }
 /* Active */
 .uk-navbar-nav > li.uk-active > a {
-  color: #333;
+  color: #e5e5e5;
 }
 /* Item
  ========================================================================== */
@@ -5333,7 +5333,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-navbar-dropdown-nav > li.uk-active > a {
-  color: #333;
+  color: #e5e5e5;
 }
 /*
  * Subtitle
@@ -5345,7 +5345,7 @@ ul.uk-nav-sub {
  * Header
  */
 .uk-navbar-dropdown-nav .uk-nav-header {
-  color: #333;
+  color: #e5e5e5;
 }
 /*
  * Divider
@@ -5363,7 +5363,7 @@ ul.uk-nav-sub {
   color: #666;
 }
 .uk-navbar-dropdown-nav .uk-nav-sub li.uk-active > a {
-  color: #333;
+  color: #e5e5e5;
 }
 /* Dropbar
  ========================================================================== */
@@ -5471,7 +5471,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-subnav > .uk-active > a {
-  color: #333;
+  color: #e5e5e5;
 }
 /* Divider modifier
  ========================================================================== */
@@ -5709,7 +5709,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-tab > .uk-active > a {
-  color: #333;
+  color: #e5e5e5;
   border-color: #1e87f0;
 }
 /* Disabled */
@@ -7068,7 +7068,7 @@ ul.uk-nav-sub {
 .uk-text-lead {
   font-size: 1.5rem;
   line-height: 1.5;
-  color: #333;
+  color: #e5e5e5;
 }
 .uk-text-meta {
   font-size: 0.875rem;
@@ -7140,7 +7140,7 @@ ul.uk-nav-sub {
   color: #999 !important;
 }
 .uk-text-emphasis {
-  color: #333 !important;
+  color: #e5e5e5 !important;
 }
 .uk-text-primary {
   color: #1e87f0 !important;
@@ -8075,13 +8075,13 @@ iframe[data-uk-cover] {
 .uk-logo {
   font-size: 1.5rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  color: #333;
+  color: #e5e5e5;
   /* 1 */
   text-decoration: none;
 }
 /* Hover */
 .uk-logo:hover {
-  color: #333;
+  color: #e5e5e5;
   /* 1 */
   text-decoration: none;
 }
