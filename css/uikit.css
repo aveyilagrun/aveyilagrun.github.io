@@ -2688,7 +2688,7 @@ select.uk-form-width-xsmall {
  */
 .uk-card-secondary {
   background-color: #004921;
-  color: #004921;
+  color: #ffffff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   border: 1px solid #003e1c;
 
@@ -9194,7 +9194,7 @@ iframe[data-uk-cover] {
 .uk-card-secondary > :not([class*='uk-card-media']),
 .uk-overlay-primary,
 .uk-offcanvas-bar {
-  color: #004921;
+  color: #ffffff;
 }
 .uk-light a,
 .uk-light .uk-link,
