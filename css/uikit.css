@@ -331,7 +331,7 @@ hr,
   /* 3 */
   margin: 0 0 20px 0;
   border: 0;
-  border-top: 1px solid #303030;
+  border-top: 1px solid #003e1c;
 }
 /* Add margin if adjacent element */
 * + hr,
@@ -688,7 +688,7 @@ a.uk-link-reset,
   display: inline-block;
   width: 100px;
   max-width: 100%;
-  border-top: 1px solid #303030;
+  border-top: 1px solid #003e1c;
   vertical-align: top;
 }
 /* Vertical
@@ -1988,8 +1988,8 @@ select.uk-form-width-xsmall {
  */
 .uk-button-secondary {
   background-color: #222;
-  color: #ededed;
-  border: 1px solid transparent;
+  color: #004921;
+  border: 1px solid #003e1c;
   border-radius: 5px;
 }
 /* Hover */
@@ -2687,10 +2687,10 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-card-secondary {
-  background-color: #181818;
-  color: #ededed;
+  background-color: #004921;
+  color: #004921;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-  border: 1px solid #4e4e4e;
+  border: 1px solid #003e1c;
 
   border-radius: 10px;
 }
@@ -9194,7 +9194,7 @@ iframe[data-uk-cover] {
 .uk-card-secondary > :not([class*='uk-card-media']),
 .uk-overlay-primary,
 .uk-offcanvas-bar {
-  color: #ededed;
+  color: #004921;
 }
 .uk-light a,
 .uk-light .uk-link,
