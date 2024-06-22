@@ -18,7 +18,7 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  background: #171717;
+  background: #6b0000;
   color: #666;
 }
 /*
@@ -12036,7 +12036,7 @@ iframe[data-uk-cover] {
   *::before,
   *::after {
     background: transparent !important;
-    color: maroon !important;
+    color: black !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
