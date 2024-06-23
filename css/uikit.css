@@ -783,7 +783,7 @@ a.uk-link-reset,
   color: #1e87f0 !important;
 }
 .uk-list-secondary > ::before {
-  color: #222 !important;
+  color: #004921 !important;
 }
 /* Image bullet modifier
  ========================================================================== */
@@ -2289,7 +2289,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-section-secondary {
-  background: #222;
+  background: #004921;
 }
 /* Overlap modifier
  ========================================================================== */
@@ -2547,7 +2547,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-tile-secondary {
-  background-color: #222;
+  background-color: #004921;
 }
 /* ========================================================================
    Component: Card
@@ -2698,7 +2698,7 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 .uk-card-secondary.uk-card-hover:hover {
-  background-color: #222;
+  background-color: #004921;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /* Size modifier
@@ -2898,7 +2898,7 @@ select.uk-form-width-xsmall {
  */
 .uk-marker {
   padding: 5px;
-  background: #222;
+  background: #004921;
   color: #fff;
   border-radius: 500px;
 }
@@ -3999,7 +3999,7 @@ select.uk-form-width-xsmall {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #222;
+  background: #004921;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -7146,7 +7146,7 @@ ul.uk-nav-sub {
   color: #1e87f0 !important;
 }
 .uk-text-secondary {
-  color: #222 !important;
+  color: #004921 !important;
 }
 .uk-text-success {
   color: #32d296 !important;
@@ -7475,7 +7475,7 @@ iframe[data-uk-cover] {
   background-color: #1e87f0;
 }
 .uk-background-secondary {
-  background-color: #222;
+  background-color: #004921;
 }
 /* Size
  ========================================================================== */
