@@ -12,6 +12,7 @@
     <title>Welcome!</title>
 </head>
 <body>
+
 <!-- Navigation Bar -->
     <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     
@@ -23,13 +24,11 @@
         <ul class="uk-navbar-nav uk-light">
             <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About me</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="mailto:az.nurgaliyeva@gmail.com">Contact</a></li>
-
+            <li><a class="uk-button-text uk-text-capitalize" href="mailto:az.nurgaliyeva@gmail.com" onclick="window.location.href='mailto:az.nurgaliyeva@gmail.com'; return false;">Contact</a></li>
         </ul>
 
     </div>
 </nav>
-<!-- Navigation Bar Ends  -->
 
 <!-- Navigation Bar Mobile -->
 <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
@@ -41,12 +40,11 @@
 
         <ul class="uk-navbar-nav uk-light">
             <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
-
         </ul>
 
     </div>
 </nav>
-<!-- Change This -->
+
 <div id="offcanvas-nav" uk-offcanvas="overlay: true">
     <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
@@ -54,82 +52,75 @@
             <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
             <li class="uk-active"><a href="#about" uk-scroll>About me</a></li>
             <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
-            <li class="uk-active"><a href="#contact" uk-scroll>Contact</a></li>
-
+            <li class="uk-active"><a href="mailto:az.nurgaliyeva@gmail.com" onclick="window.location.href='mailto:az.nurgaliyeva@gmail.com'; return false;">Contact</a></li>
         </ul>
 
     </div>
 </div>
 
-<!-- Navigation Bar Mobile Ends -->
 <!-- Home -->
 <section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
     <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">Heya! I'm Azhar Nurgaliyeva, a developer, technology consultant, and a passionate innovator in engineering design.</h1>
     <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>More Information</a>
-
 </section>
 
-<!-- Home Ends -->
 <br>
-
 
 <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
 
 <!-- About Me -->
 <section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
-<!-- Change here to ur paragraph -->
-<p class="uk-margin-xlarge-left uk-margin-xlarge-right">Currently working as a technology consultant at Autodesk. With a BEng in Electronic & Electrical Engineering from University College London and an MSc in Computing from Imperial College London, I specialise in creating innovative tech solutions. My interests include sustainable energy systems and exploring the intricacies of the human brain. I'm dedicated to leveraging technology to make a positive impact on the world. When I'm not coding, you can find me reading something from my reading list or spending time with my loved ones.</p>
-<a href="https://github.com/aveyilagrun" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/azhar-nurgaliyeva/" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
-
-<!-- About Me Ends -->
-
+    <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">Currently working as a technology consultant at Autodesk. With a BEng in Electronic & Electrical Engineering from University College London and an MSc in Computing from Imperial College London, I specialise in creating innovative tech solutions. My interests include sustainable energy systems and exploring the intricacies of the human brain. I'm dedicated to leveraging technology to make a positive impact on the world. When I'm not coding, you can find me reading something from my reading list or spending time with my loved ones.</p>
+    <a href="https://github.com/aveyilagrun" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/azhar-nurgaliyeva/" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
 </section>
+
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
 
 <!-- Projects Section -->
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
 <section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
-<p class="uk-margin-xlarge-left">Projects that i've been working on</p>
+    <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+    <p class="uk-margin-xlarge-left">Projects that I've been working on :)</p>
 
-<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
 
-    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Shadowing Phase application for Young Professionals Network</h4>
-        <p>Developed a PowerApps application that helps to allocate participants of the Horizontal Career Moves project to relevant mentors and shadowing experiences.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="https://blogs.autodesk.com/autodesk-life/diversity/young-professionals-network/#:~:text=%E2%80%9CPlan%20your%20next%20horizontal%20move%20in%20Autodesk.%E2%80%9D">
-            <span uk-icon="icon: link"></span> Reference Link 
-        </a>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>Shadowing Phase application for Young Professionals Network</h4>
+            <p>Developed a PowerApps application that helps to allocate participants of the Horizontal Career Moves project to relevant mentors and shadowing experiences.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://blogs.autodesk.com/autodesk-life/diversity/young-professionals-network/#:~:text=%E2%80%9CPlan%20your%20next%20horizontal%20move%20in%20Autodesk.%E2%80%9D">
+                <span uk-icon="icon: link"></span> Reference Link 
+            </a>
+        </div>
+
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>Unveiling gender dynamics and linguistic biases in the energy sector</h4>
+            <p>Collaborators: Rachel Gupta, Edward Gao, Dr Anandha Gopalan, Dr Anna Korre, Dr Jackie Bell. Presented the results of the work over the summer at IGNITE+ network’s annual event in Manchester. The findings from the master’s thesis aim to shed light on persistent biases and guide the development of a more inclusive energy research environment. Supporting the research objectives of Imperial College London’s prescribed activity for IGNITE+ network. Tools: Python, Gensim, spaCy, NLTK.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://www.ignitenetplus.ac.uk/Portals/17/Documents/Events/Azhar%20-%20Imperial%20-%20EFL1.pdf?ver=fstCJQV627lcQXgU_5-y-g%3D%3D">
+                <span uk-icon="icon: link"></span> Website Link
+            </a>
+        </div>
+
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>Synch.Live</h4>
+            <p>Worked on an experimental system formed of a fleet of headsets equipped with RaspberryPi and blinking LED lights. Developed a user-friendly interface to control an experimental system exploring collective human motion through the central panel. Tools: RaspberryPi, Unix, Python, Flask, HTML, CSS, Javascript.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://www.synch.live/">
+                <span uk-icon="icon: link"></span> Website Link
+            </a>
+            <br>
+            <a class="uk-button-text uk-text-decoration-none" href="https://github.com/Synch-Live">
+                <span uk-icon="icon: github"></span> Github link
+            </a>
+        </div>
+
     </div>
 
-    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Unveiling gender dynamics and linguistic biases in the energy sector</h4>
-        <p>Collaborators: Rachel Gupta, Edward Gao, Dr Anandha Gopalan, Dr Anna Korre, Dr Jackie Bell. Presented the results of the work over the summer at IGNITE+ network’s annual event in Manchester. The findings from the master’s thesis aim to shed light on persistent biases and guide the development of a more inclusive energy research environment. Supporting the research objectives of Imperial College London’s prescribed activity for IGNITE+ network. Tools: Python, Gensim, spaCy, NLTK.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="https://www.ignitenetplus.ac.uk/Portals/17/Documents/Events/Azhar%20-%20Imperial%20-%20EFL1.pdf?ver=fstCJQV627lcQXgU_5-y-g%3D%3D">
-            <span uk-icon="icon: link"></span> Website Link
-        </a>
-    </div>
-
-    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Synch.Live</h4>
-        <p>Worked on an experimental system formed of a fleet of headsets equipped with RaspberryPi and blinking LED lights. Developed a user-friendly interface to control an experimental system exploring collective human motion through the central panel. Tools: RaspberryPi, Unix, Python, Flask, HTML, CSS, Javascript.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="https://www.synch.live/">
-            <span uk-icon="icon: link"></span> Website Link
-        </a>
-        <br>
-        <a class="uk-button-text uk-text-decoration-none" href="https://github.com/Synch-Live">
-            <span uk-icon="icon: github"></span> Github link
-        </a>
-    </div>
-
-</div>
-
-<br>
+    <br>
 
 </section>
+
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
 </div>
-<!-- Projects Section Ends -->
     
 </body>
 </html>
