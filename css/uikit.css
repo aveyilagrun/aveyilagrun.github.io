@@ -1987,8 +1987,8 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-button-secondary {
-  background-color: #222;
-  color: #004921;
+  background-color: #004921;
+  color: #ffffff;
   border: 1px solid #003e1c;
   border-radius: 5px;
 }
