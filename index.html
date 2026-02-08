@@ -25,7 +25,7 @@
             <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll="offset: 80">About me</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#reading" uk-scroll="offset: 80">Reading Corner</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll="offset: 80">Projects</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="mailto:az.nurgaliyeva@gmail.com" onclick="window.location.href='mailto:az.nurgaliyeva@gmail.com'; return false;">Contact</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#contact" uk-scroll="offset: 80">Contact</a></li>
         </ul>
 
     </div>
@@ -54,7 +54,7 @@
             <li class="uk-active"><a href="#about" uk-scroll="offset: 80">About me</a></li>
             <li class="uk-active"><a href="#reading" uk-scroll="offset: 80">Reading Corner</a></li>
             <li class="uk-active"><a href="#projects" uk-scroll="offset: 80">Projects</a></li>
-            <li class="uk-active"><a href="mailto:az.nurgaliyeva@gmail.com" onclick="window.location.href='mailto:az.nurgaliyeva@gmail.com'; return false;">Contact</a></li>
+            <li class="uk-active"><a href="#contact" uk-scroll="offset: 80">Contact</a></li>
         </ul>
 
     </div>
@@ -73,7 +73,7 @@
 <!-- About Me -->
 <section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
     <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
-    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">Currently working as a technology consultant at Autodesk. With a BEng in Electronic & Electrical Engineering from University College London and an MSc in Computing from Imperial College London, I specialise in creating innovative tech solutions. My interests include sustainable energy systems and exploring the intricacies of the human brain. I'm dedicated to leveraging technology to make a positive impact on the world. When I'm not coding, you can find me reading something from my reading list or spending time with my loved ones.</p>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">I am currently a Software Development Engineer at Autodesk. I hold a BEng in Electronic & Electrical Engineering from University College London and an MSc in Computing from Imperial College London. My work and personal interests span sustainable energy systems and exploring the intricacies of the human brain. Recently, I've been fascinated by how large language models and their active use in agentic workflows are shaping how people approach problem solving. I am passionate about leveraging technology to create meaningful impact. When I'm not coding, I enjoy reading, exploring new ideas and crafting DIY projects.</p>
     <a href="https://github.com/aveyilagrun" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/azhar-nurgaliyeva/" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
 </section>
 
@@ -365,16 +365,35 @@
 
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
 
+<!-- Contact Section -->
+<section id="contact" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">Contact</h3>
+    <p class="uk-margin-xlarge-left uk-margin-xlarge-right">Feel free to reach out — I'd love to connect.</p>
+    <div class="uk-margin-xlarge-left">
+        <a href="mailto:az.nurgaliyeva@gmail.com" class="uk-light uk-button-text uk-text-decoration-none">
+            <span uk-icon="icon: mail"></span> az.nurgaliyeva@gmail.com
+        </a>
+        <br><br>
+        <a href="https://www.linkedin.com/in/azhar-nurgaliyeva/" class="uk-light uk-button-text uk-text-decoration-none">
+            <span uk-icon="icon: linkedin"></span> LinkedIn
+        </a>
+        <br><br>
+        <a href="https://github.com/aveyilagrun" class="uk-light uk-button-text uk-text-decoration-none">
+            <span uk-icon="icon: github"></span> GitHub
+        </a>
+    </div>
+</section>
+
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
 <!-- Force Goodreads widget fonts after external scripts load -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() {
-            // Override any Goodreads-injected styles
             var allElements = document.querySelectorAll('#gr_custom_widget_1770574610 *, #gr_challenge_11680 *, .gr-quote-widget-container *, #gr_quote_body *');
             allElements.forEach(function(el) {
                 el.style.fontFamily = "'IBM Plex Mono', monospace";
             });
-            // Hide goodreads logo in currently reading
             var centers = document.querySelectorAll('.gr_custom_container_1770574610 > center');
             centers.forEach(function(el) { el.style.display = 'none'; });
         }, 2000);
