@@ -14,7 +14,7 @@
 <body>
 
 <!-- Navigation Bar -->
-    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     
     <div class="uk-navbar-left">
         <a href="" class="uk-navbar-item uk-logo uk-light">Azhar Nurgaliyeva</a>
@@ -23,6 +23,7 @@
 
         <ul class="uk-navbar-nav uk-light">
             <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About me</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#reading" uk-scroll>Reading Corner</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="mailto:az.nurgaliyeva@gmail.com" onclick="window.location.href='mailto:az.nurgaliyeva@gmail.com'; return false;">Contact</a></li>
         </ul>
@@ -51,6 +52,7 @@
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
             <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
             <li class="uk-active"><a href="#about" uk-scroll>About me</a></li>
+            <li class="uk-active"><a href="#reading" uk-scroll>Reading Corner</a></li>
             <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
             <li class="uk-active"><a href="mailto:az.nurgaliyeva@gmail.com" onclick="window.location.href='mailto:az.nurgaliyeva@gmail.com'; return false;">Contact</a></li>
         </ul>
@@ -73,230 +75,178 @@
     <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
     <p class="uk-margin-xlarge-left uk-margin-xlarge-right">Currently working as a technology consultant at Autodesk. With a BEng in Electronic & Electrical Engineering from University College London and an MSc in Computing from Imperial College London, I specialise in creating innovative tech solutions. My interests include sustainable energy systems and exploring the intricacies of the human brain. I'm dedicated to leveraging technology to make a positive impact on the world. When I'm not coding, you can find me reading something from my reading list or spending time with my loved ones.</p>
     <a href="https://github.com/aveyilagrun" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/azhar-nurgaliyeva/" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
+</section>
 
-    <!-- Goodreads Widgets -->
-    <div class="uk-margin-xlarge-left uk-margin-xlarge-right uk-margin-large-top">
-        <h4 class="uk-light uk-margin-bottom">📚 Reading Corner</h4>
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
 
-        <!-- Goodreads widget styles -->
-        <style type="text/css" media="screen">
-            /* Currently Reading Widget */
-            .gr_custom_container_1770574610 {
-                border: 1px solid rgba(255,255,255,0.2);
-                border-radius: 10px;
-                padding: 10px 5px 10px 5px;
-                background-color: rgba(255,255,255,0.05);
-                color: #e5e5e5;
-                width: 100%;
-                box-sizing: border-box;
-            }
-            .gr_custom_header_1770574610 {
-                border-bottom: 1px solid rgba(255,255,255,0.2);
-                width: 100%;
-                margin-bottom: 5px;
-                text-align: center;
-                font-size: 120%;
-            }
-            .gr_custom_header_1770574610 a {
-                color: #e5e5e5;
-                text-decoration: none;
-            }
-            .gr_custom_each_container_1770574610 {
-                width: 100%;
-                clear: both;
-                margin-bottom: 10px;
-                overflow: auto;
-                padding-bottom: 4px;
-                border-bottom: 1px solid rgba(255,255,255,0.1);
-            }
-            .gr_custom_book_container_1770574610 {
-                overflow: hidden;
-                height: 60px;
-                float: left;
-                margin-right: 4px;
-                width: 39px;
-            }
-            .gr_custom_title_1770574610 a {
-                color: #b8d4e8;
-            }
-            .gr_custom_author_1770574610 {
-                font-size: 10px;
-                color: #aaa;
-            }
-            .gr_custom_author_1770574610 a {
-                color: #b8d4e8;
-            }
-            .gr_custom_tags_1770574610 {
-                font-size: 10px;
-                color: #888;
-            }
-            .gr_custom_rating_1770574610 {
-                float: right;
-            }
+<!-- Reading Corner -->
+<section id="reading" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">📚 Reading Corner</h3>
 
-            /* Reading Challenge Widget */
-            #gr_challenge_11680 {
-                border: 1px solid rgba(255,255,255,0.2) !important;
-                border-radius: 10px !important;
-                padding: 10px 7px !important;
-                background-color: rgba(255,255,255,0.05) !important;
-                max-width: 100% !important;
-                min-height: 100px;
-                box-sizing: border-box;
-            }
-            #gr_challenge_progress_body_11680 {
-                font-size: 12px;
-                font-family: georgia, serif;
-                line-height: 18px;
-                color: #e5e5e5;
-            }
-            #gr_challenge_progress_body_11680 h3 a {
-                color: #e5e5e5 !important;
-                text-decoration: none;
-            }
-            #gr_challenge_progress_body_11680 a {
-                color: #b8d4e8 !important;
-            }
-            #gr_challenge_progress_body_11680 .challengePic img {
-                float: left;
-                margin-right: 10px;
-                border: 0 none;
-            }
+    <!-- Goodreads widget styles -->
+    <style type="text/css" media="screen">
+        /* Currently Reading Widget */
+        .gr_custom_container_1770574610 {
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 10px;
+            padding: 10px 5px 10px 5px;
+            background-color: rgba(255,255,255,0.05);
+            color: #e5e5e5;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .gr_custom_header_1770574610 {
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            width: 100%;
+            margin-bottom: 5px;
+            text-align: center;
+            font-size: 120%;
+        }
+        .gr_custom_header_1770574610 a {
+            color: #e5e5e5;
+            text-decoration: none;
+        }
+        .gr_custom_each_container_1770574610 {
+            width: 100%;
+            clear: both;
+            margin-bottom: 10px;
+            overflow: auto;
+            padding-bottom: 4px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .gr_custom_book_container_1770574610 {
+            overflow: hidden;
+            height: 60px;
+            float: left;
+            margin-right: 4px;
+            width: 39px;
+        }
+        .gr_custom_title_1770574610 a {
+            color: #b8d4e8;
+        }
+        .gr_custom_author_1770574610 {
+            font-size: 10px;
+            color: #aaa;
+        }
+        .gr_custom_author_1770574610 a {
+            color: #b8d4e8;
+        }
+        .gr_custom_tags_1770574610 {
+            font-size: 10px;
+            color: #888;
+        }
+        .gr_custom_rating_1770574610 {
+            float: right;
+        }
 
-            /* Favourites Grid Widget */
-            #gr_grid_widget_1770574652 {
-                width: 100%;
-            }
-            #gr_grid_widget_1770574652 h2 a {
-                color: #e5e5e5;
-                text-decoration: none;
-                font-size: 1em;
-            }
-            .gr_grid_container {
-                /* customize grid container div here */
-            }
-            .gr_grid_book_container {
-                float: left;
-                width: 39px;
-                height: 60px;
-                padding: 0px 0px;
-                overflow: hidden;
-            }
-            .gr_grid_branding {
-                color: #b8d4e8 !important;
-                font-size: .9em;
-                text-decoration: none;
-                float: right;
-                clear: both;
-            }
+        /* Reading Challenge Widget */
+        #gr_challenge_11680 {
+            border: 1px solid rgba(255,255,255,0.2) !important;
+            border-radius: 10px !important;
+            padding: 10px 7px !important;
+            background-color: rgba(255,255,255,0.05) !important;
+            max-width: 100% !important;
+            min-height: 100px;
+            box-sizing: border-box;
+        }
+        #gr_challenge_progress_body_11680 {
+            font-size: 12px;
+            font-family: georgia, serif;
+            line-height: 18px;
+            color: #e5e5e5;
+        }
+        #gr_challenge_progress_body_11680 h3 a {
+            color: #e5e5e5 !important;
+            text-decoration: none;
+        }
+        #gr_challenge_progress_body_11680 a {
+            color: #b8d4e8 !important;
+        }
+        #gr_challenge_progress_body_11680 .challengePic img {
+            float: left;
+            margin-right: 10px;
+            border: 0 none;
+        }
 
-            /* Quote Widget */
-            .gr-quote-widget-container {
-                border: 1px solid rgba(255,255,255,0.2) !important;
-                border-radius: 10px !important;
-                padding: 10px 7px !important;
-                background-color: rgba(255,255,255,0.05) !important;
-                box-sizing: border-box;
-            }
-            .gr-quote-widget-container h3 a {
-                color: #aaa !important;
-                font-family: georgia, serif;
-                font-style: italic;
-                text-decoration: none;
-            }
-            .gr-quote-widget-container a {
-                color: #b8d4e8 !important;
-            }
-            #gr_quote_body {
-                color: #e5e5e5;
-                font-size: 14px;
-            }
+        /* Quote Widget */
+        .gr-quote-widget-container {
+            border: 1px solid rgba(255,255,255,0.2) !important;
+            border-radius: 10px !important;
+            padding: 10px 7px !important;
+            background-color: rgba(255,255,255,0.05) !important;
+            box-sizing: border-box;
+        }
+        .gr-quote-widget-container h3 a {
+            color: #aaa !important;
+            font-family: georgia, serif;
+            font-style: italic;
+            text-decoration: none;
+        }
+        .gr-quote-widget-container a {
+            color: #b8d4e8 !important;
+        }
+        #gr_quote_body {
+            color: #e5e5e5;
+            font-size: 14px;
+        }
+    </style>
 
-            /* Updates Widget */
-            #gr_updates_widget {
-                border-radius: 10px !important;
-                background-color: rgba(255,255,255,0.05) !important;
-                border: 1px solid rgba(255,255,255,0.2) !important;
-                -webkit-box-shadow: none !important;
-                -moz-box-shadow: none !important;
-                box-shadow: none !important;
-                padding: 15px 0 35px 15px;
-                width: 100% !important;
-                height: 330px;
-                box-sizing: border-box;
-            }
-            #gr_updates_widget p {
-                padding: 0px;
-                margin: 0;
-                font-size: 14px;
-                color: #e5e5e5;
-            }
-            #gr_footer {
-                margin-bottom: 10px;
-            }
-            #gr_footer img {
-                width: 100px;
-                float: left;
-            }
-            #gr_updates_widget img {
-                border-style: none;
-            }
-        </style>
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
 
-        <!-- Row 1: Currently Reading + 2026 Reading Challenge -->
-        <div class="uk-grid-small uk-child-width-1-2@m uk-child-width-1-1" uk-grid>
-            
-            <!-- Currently Reading -->
-            <div>
-                <div id="gr_custom_widget_1770574610">
-                    <div class="gr_custom_container_1770574610">
-                        <h2 class="gr_custom_header_1770574610">
-                            <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/151979573-azhar-nurgaliyeva?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">Currently Reading</a>
-                        </h2>
-                        <div class="gr_custom_each_container_1770574610">
-                            <div class="gr_custom_book_container_1770574610">
-                                <a title="Meditations" rel="nofollow" href="https://www.goodreads.com/review/show/7200849983?utm_medium=api&amp;utm_source=custom_widget"><img alt="Meditations" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659._SY75_.jpg" /></a>
-                            </div>
-                            <div class="gr_custom_title_1770574610">
-                                <a rel="nofollow" href="https://www.goodreads.com/review/show/7200849983?utm_medium=api&amp;utm_source=custom_widget">Meditations</a>
-                            </div>
-                            <div class="gr_custom_author_1770574610">
-                                by <a rel="nofollow" href="https://www.goodreads.com/author/show/17212.Marcus_Aurelius">Marcus Aurelius</a>
-                            </div>
+        <!-- Row: Currently Reading (full width) -->
+        <div class="uk-margin-bottom">
+            <div id="gr_custom_widget_1770574610">
+                <div class="gr_custom_container_1770574610">
+                    <h2 class="gr_custom_header_1770574610">
+                        <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/151979573-azhar-nurgaliyeva?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">Currently Reading</a>
+                    </h2>
+                    <div class="gr_custom_each_container_1770574610">
+                        <div class="gr_custom_book_container_1770574610">
+                            <a title="Meditations" rel="nofollow" href="https://www.goodreads.com/review/show/7200849983?utm_medium=api&amp;utm_source=custom_widget"><img alt="Meditations" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659._SY75_.jpg" /></a>
                         </div>
-                        <div class="gr_custom_each_container_1770574610">
-                            <div class="gr_custom_book_container_1770574610">
-                                <a title="The Wedding People" rel="nofollow" href="https://www.goodreads.com/review/show/8095598091?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Wedding People" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759683499l/198902277._SY75_.jpg" /></a>
-                            </div>
-                            <div class="gr_custom_title_1770574610">
-                                <a rel="nofollow" href="https://www.goodreads.com/review/show/8095598091?utm_medium=api&amp;utm_source=custom_widget">The Wedding People</a>
-                            </div>
-                            <div class="gr_custom_author_1770574610">
-                                by <a rel="nofollow" href="https://www.goodreads.com/author/show/4269913.Alison_Espach">Alison Espach</a>
-                            </div>
+                        <div class="gr_custom_title_1770574610">
+                            <a rel="nofollow" href="https://www.goodreads.com/review/show/7200849983?utm_medium=api&amp;utm_source=custom_widget">Meditations</a>
                         </div>
-                        <div class="gr_custom_each_container_1770574610">
-                            <div class="gr_custom_book_container_1770574610">
-                                <a title="The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About" rel="nofollow" href="https://www.goodreads.com/review/show/8095598406?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735589383l/216351768._SY75_.jpg" /></a>
-                            </div>
-                            <div class="gr_custom_title_1770574610">
-                                <a rel="nofollow" href="https://www.goodreads.com/review/show/8095598406?utm_medium=api&amp;utm_source=custom_widget">The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About</a>
-                            </div>
-                            <div class="gr_custom_author_1770574610">
-                                by <a rel="nofollow" href="https://www.goodreads.com/author/show/4470180.Mel_Robbins">Mel Robbins</a>
-                            </div>
+                        <div class="gr_custom_author_1770574610">
+                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/17212.Marcus_Aurelius">Marcus Aurelius</a>
                         </div>
-                        <br style="clear: both"/>
-                        <center>
-                            <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
-                        </center>
-                        <noscript>
-                            Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Azhar, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
-                        </noscript>
                     </div>
+                    <div class="gr_custom_each_container_1770574610">
+                        <div class="gr_custom_book_container_1770574610">
+                            <a title="The Wedding People" rel="nofollow" href="https://www.goodreads.com/review/show/8095598091?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Wedding People" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1759683499l/198902277._SY75_.jpg" /></a>
+                        </div>
+                        <div class="gr_custom_title_1770574610">
+                            <a rel="nofollow" href="https://www.goodreads.com/review/show/8095598091?utm_medium=api&amp;utm_source=custom_widget">The Wedding People</a>
+                        </div>
+                        <div class="gr_custom_author_1770574610">
+                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/4269913.Alison_Espach">Alison Espach</a>
+                        </div>
+                    </div>
+                    <div class="gr_custom_each_container_1770574610">
+                        <div class="gr_custom_book_container_1770574610">
+                            <a title="The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About" rel="nofollow" href="https://www.goodreads.com/review/show/8095598406?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735589383l/216351768._SY75_.jpg" /></a>
+                        </div>
+                        <div class="gr_custom_title_1770574610">
+                            <a rel="nofollow" href="https://www.goodreads.com/review/show/8095598406?utm_medium=api&amp;utm_source=custom_widget">The Let Them Theory: A Life-Changing Tool That Millions of People Can't Stop Talking About</a>
+                        </div>
+                        <div class="gr_custom_author_1770574610">
+                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/4470180.Mel_Robbins">Mel Robbins</a>
+                        </div>
+                    </div>
+                    <br style="clear: both"/>
+                    <center>
+                        <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
+                    </center>
+                    <noscript>
+                        Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Azhar, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
+                    </noscript>
                 </div>
-                <script src="https://www.goodreads.com/review/custom_widget/151979573.Azhar's%20bookshelf:%20currently-reading?cover_position=left&cover_size=small&num_books=5&order=a&shelf=currently-reading&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1770574610&widget_text_color=000000&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
             </div>
+            <script src="https://www.goodreads.com/review/custom_widget/151979573.Azhar's%20bookshelf:%20currently-reading?cover_position=left&cover_size=small&num_books=5&order=a&shelf=currently-reading&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1770574610&widget_text_color=000000&widget_title_size=medium&widget_width=medium" type="text/javascript" charset="utf-8"></script>
+        </div>
+
+        <!-- Row: 2026 Reading Challenge + Quotes side by side -->
+        <div class="uk-grid-small uk-child-width-1-2@m uk-child-width-1-1" uk-grid>
 
             <!-- 2026 Reading Challenge -->
             <div>
@@ -325,36 +275,10 @@
                 </div>
             </div>
 
-        </div>
-
-        <!-- Row 2: Favourites (yes shelf) + Quotes -->
-        <div class="uk-grid-small uk-child-width-1-2@m uk-child-width-1-1 uk-margin-top" uk-grid>
-
-            <!-- Favourites - Yes Shelf Grid -->
-            <div>
-                <div id="gr_grid_widget_1770574652">
-                    <h2>
-                        <a style="text-decoration: none; color: #e5e5e5; font-size: 1em;" rel="nofollow" href="https://www.goodreads.com/review/list/151979573-azhar-nurgaliyeva?shelf=yes&utm_medium=api&utm_source=grid_widget">Azhar's Favourites</a>
-                    </h2>
-                    <div class="gr_grid_container">
-                        <div class="gr_grid_book_container"><a title="The Little Prince" rel="nofollow" href="https://www.goodreads.com/book/show/157993.The_Little_Prince"><img alt="The Little Prince" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367545443l/157993._SY75_.jpg" /></a></div>
-                        <div class="gr_grid_book_container"><a title="The Diary of a Young Girl" rel="nofollow" href="https://www.goodreads.com/book/show/48855.The_Diary_of_a_Young_Girl"><img alt="The Diary of a Young Girl" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560816565l/48855._SY75_.jpg" /></a></div>
-                        <div class="gr_grid_book_container"><a title="The Shadow of the Wind (The Cemetery of Forgotten Books, #1)" rel="nofollow" href="https://www.goodreads.com/book/show/1232.The_Shadow_of_the_Wind"><img alt="The Shadow of the Wind" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628791882l/1232._SY75_.jpg" /></a></div>
-                        <div class="gr_grid_book_container"><a title="One Day" rel="nofollow" href="https://www.goodreads.com/book/show/6280118-one-day"><img alt="One Day" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327873020l/6280118._SY75_.jpg" /></a></div>
-                        <div class="gr_grid_book_container"><a title="A Little Life" rel="nofollow" href="https://www.goodreads.com/book/show/22822858-a-little-life"><img alt="A Little Life" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446469353l/22822858._SY75_.jpg" /></a></div>
-                        <div class="gr_grid_book_container"><a title="Heartburn" rel="nofollow" href="https://www.goodreads.com/book/show/225343.Heartburn"><img alt="Heartburn" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386647458l/225343._SY75_.jpg" /></a></div>
-                        <br style="clear: both"/><br/>
-                        <a class="gr_grid_branding" style="font-size: .9em; color: #b8d4e8; text-decoration: none; float: right; clear: both" rel="nofollow" href="https://www.goodreads.com/user/show/151979573-azhar-nurgaliyeva">Azhar Nurgaliyeva's favorite books »</a>
-                        <noscript><br/>Share <a rel="nofollow" href="/">book reviews</a> and ratings with Azhar, and even join a <a rel="nofollow" href="/group">book club</a> on Goodreads.</noscript>
-                    </div>
-                </div>
-                <script src="https://www.goodreads.com/review/grid_widget/151979573.Azhar's%20yes%20book%20montage?cover_size=small&hide_link=&hide_title=&num_books=20&order=a&shelf=yes&sort=date_added&widget_id=1770574652" type="text/javascript" charset="utf-8"></script>
-            </div>
-
             <!-- Quotes Widget -->
             <div>
                 <div class="gr-quote-widget-container">
-                    <h3 style=""><a href="https://www.goodreads.com/user/show/151979573-azhar-nurgaliyeva" style="text-decoration: none;color:#aaa;font-family:georgia,serif;font-style:italic;" rel="nofollow">Azhar's quotes</a></h3>
+                    <h3 style="margin-top: 4px;"><a href="https://www.goodreads.com/user/show/151979573-azhar-nurgaliyeva" style="text-decoration: none;color:#aaa;font-family:georgia,serif;font-style:italic;" rel="nofollow">Azhar's quotes</a></h3>
                     <br/>
                     <div id="gr_quote_body"></div>
                     <script src="https://www.goodreads.com/quotes/widget/151979573-azhar-nurgaliyeva?v=2" type="text/javascript"></script>
