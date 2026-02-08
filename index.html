@@ -22,9 +22,9 @@
     <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav uk-light">
-            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About me</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="#reading" uk-scroll>Reading Corner</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll="offset: 80">About me</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#reading" uk-scroll="offset: 80">Reading Corner</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll="offset: 80">Projects</a></li>
             <li><a class="uk-button-text uk-text-capitalize" href="mailto:az.nurgaliyeva@gmail.com" onclick="window.location.href='mailto:az.nurgaliyeva@gmail.com'; return false;">Contact</a></li>
         </ul>
 
@@ -51,9 +51,9 @@
 
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
             <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
-            <li class="uk-active"><a href="#about" uk-scroll>About me</a></li>
-            <li class="uk-active"><a href="#reading" uk-scroll>Reading Corner</a></li>
-            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+            <li class="uk-active"><a href="#about" uk-scroll="offset: 80">About me</a></li>
+            <li class="uk-active"><a href="#reading" uk-scroll="offset: 80">Reading Corner</a></li>
+            <li class="uk-active"><a href="#projects" uk-scroll="offset: 80">Projects</a></li>
             <li class="uk-active"><a href="mailto:az.nurgaliyeva@gmail.com" onclick="window.location.href='mailto:az.nurgaliyeva@gmail.com'; return false;">Contact</a></li>
         </ul>
 
@@ -63,7 +63,7 @@
 <!-- Home -->
 <section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
     <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">Heya! I'm Azhar Nurgaliyeva, a developer, technology consultant, and a passionate innovator in engineering design.</h1>
-    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>More Information</a>
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll="offset: 80">More Information</a>
 </section>
 
 <br>
@@ -81,7 +81,7 @@
 
 <!-- Reading Corner -->
 <section id="reading" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-    <h3 class="uk-margin-xlarge-left uk-light">📚 Reading Corner</h3>
+    <h3 class="uk-margin-xlarge-left uk-light">Reading Corner</h3>
 
     <!-- Goodreads widget styles -->
     <style type="text/css" media="screen">
@@ -94,6 +94,7 @@
             color: #e5e5e5;
             width: 100%;
             box-sizing: border-box;
+            font-family: 'IBM Plex Mono', monospace;
         }
         .gr_custom_header_1770574610 {
             border-bottom: 1px solid rgba(255,255,255,0.2);
@@ -101,10 +102,12 @@
             margin-bottom: 5px;
             text-align: center;
             font-size: 120%;
+            font-family: 'IBM Plex Mono', monospace;
         }
         .gr_custom_header_1770574610 a {
             color: #e5e5e5;
             text-decoration: none;
+            font-family: 'IBM Plex Mono', monospace;
         }
         .gr_custom_each_container_1770574610 {
             width: 100%;
@@ -123,17 +126,21 @@
         }
         .gr_custom_title_1770574610 a {
             color: #b8d4e8;
+            font-family: 'IBM Plex Mono', monospace;
         }
         .gr_custom_author_1770574610 {
             font-size: 10px;
             color: #aaa;
+            font-family: 'IBM Plex Mono', monospace;
         }
         .gr_custom_author_1770574610 a {
             color: #b8d4e8;
+            font-family: 'IBM Plex Mono', monospace;
         }
         .gr_custom_tags_1770574610 {
             font-size: 10px;
             color: #888;
+            font-family: 'IBM Plex Mono', monospace;
         }
         .gr_custom_rating_1770574610 {
             float: right;
@@ -151,16 +158,25 @@
         }
         #gr_challenge_progress_body_11680 {
             font-size: 12px;
-            font-family: georgia, serif;
+            font-family: 'IBM Plex Mono', monospace !important;
             line-height: 18px;
             color: #e5e5e5;
+        }
+        #gr_challenge_progress_body_11680 h3 {
+            font-family: 'IBM Plex Mono', monospace !important;
         }
         #gr_challenge_progress_body_11680 h3 a {
             color: #e5e5e5 !important;
             text-decoration: none;
+            font-family: 'IBM Plex Mono', monospace !important;
+            font-style: normal !important;
         }
         #gr_challenge_progress_body_11680 a {
             color: #b8d4e8 !important;
+            font-family: 'IBM Plex Mono', monospace !important;
+        }
+        #gr_challenge_progress_body_11680 div {
+            font-family: 'IBM Plex Mono', monospace !important;
         }
         #gr_challenge_progress_body_11680 .challengePic img {
             float: left;
@@ -175,19 +191,33 @@
             padding: 10px 7px !important;
             background-color: rgba(255,255,255,0.05) !important;
             box-sizing: border-box;
+            font-family: 'IBM Plex Mono', monospace;
+        }
+        .gr-quote-widget-container h3 {
+            font-family: 'IBM Plex Mono', monospace !important;
         }
         .gr-quote-widget-container h3 a {
             color: #aaa !important;
-            font-family: georgia, serif;
+            font-family: 'IBM Plex Mono', monospace !important;
             font-style: italic;
             text-decoration: none;
         }
         .gr-quote-widget-container a {
             color: #b8d4e8 !important;
+            font-family: 'IBM Plex Mono', monospace !important;
         }
         #gr_quote_body {
             color: #e5e5e5;
             font-size: 14px;
+            font-family: 'IBM Plex Mono', monospace !important;
+        }
+        #gr_quote_body a {
+            font-family: 'IBM Plex Mono', monospace !important;
+        }
+
+        /* Hide goodreads logo in currently reading widget */
+        .gr_custom_container_1770574610 > center {
+            display: none;
         }
     </style>
 
@@ -234,9 +264,6 @@
                         </div>
                     </div>
                     <br style="clear: both"/>
-                    <center>
-                        <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
-                    </center>
                     <noscript>
                         Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Azhar, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
                     </noscript>
@@ -253,7 +280,7 @@
                 <div id="gr_challenge_11680">
                     <div id="gr_challenge_progress_body_11680">
                         <h3 style="margin: 4px 0 10px; font-weight: normal; text-align: center">
-                            <a style="text-decoration: none; font-family:georgia,serif;font-style:italic; font-size: 1.1em" rel="nofollow" href="https://www.goodreads.com/challenges/11680-2026-reading-challenge">2026 Reading Challenge</a>
+                            <a style="text-decoration: none; font-family: 'IBM Plex Mono', monospace; font-size: 1.1em" rel="nofollow" href="https://www.goodreads.com/challenges/11680-2026-reading-challenge">2026 Reading Challenge</a>
                         </h3>
                         <div class="challengePic">
                             <a rel="nofollow" href="https://www.goodreads.com/challenges/11680-2026-reading-challenge"><img alt="2026 Reading Challenge" style="float:left; margin-right: 10px; border: 0 none" src="https://images.gr-assets.com/challenges/1764710439p2/11680.jpg" /></a>
@@ -264,7 +291,7 @@
                         <div style="width: 100px; margin: 4px 5px 5px 0; float: left; border: 1px solid rgba(255,255,255,0.3); height: 8px; overflow: hidden; background-color: rgba(255,255,255,0.1)">
                             <div style="width: 12%; background-color: #b8d4e8; float: left"><span style="visibility:hidden">hide</span></div>
                         </div>
-                        <div style="font-family: arial, verdana, helvetica, sans-serif;font-size:90%">
+                        <div style="font-family: 'IBM Plex Mono', monospace; font-size:90%">
                             <a rel="nofollow" href="https://www.goodreads.com/user_challenges/70610016">2 of 16 (12%)</a>
                         </div>
                         <div style="text-align: right;">
@@ -278,12 +305,12 @@
             <!-- Quotes Widget -->
             <div>
                 <div class="gr-quote-widget-container">
-                    <h3 style="margin-top: 4px;"><a href="https://www.goodreads.com/user/show/151979573-azhar-nurgaliyeva" style="text-decoration: none;color:#aaa;font-family:georgia,serif;font-style:italic;" rel="nofollow">Azhar's quotes</a></h3>
+                    <h3 style="margin-top: 4px;"><a href="https://www.goodreads.com/user/show/151979573-azhar-nurgaliyeva" style="text-decoration: none; color:#aaa; font-family: 'IBM Plex Mono', monospace; font-style:italic;" rel="nofollow">Azhar's quotes</a></h3>
                     <br/>
                     <div id="gr_quote_body"></div>
                     <script src="https://www.goodreads.com/quotes/widget/151979573-azhar-nurgaliyeva?v=2" type="text/javascript"></script>
                     <div style="text-align: right;">
-                        <a href="https://www.goodreads.com/quotes" style="color: #b8d4e8; text-decoration: none; font-size: 10px;" rel="nofollow">Goodreads Quotes</a>
+                        <a href="https://www.goodreads.com/quotes" style="color: #b8d4e8; text-decoration: none; font-size: 10px; font-family: 'IBM Plex Mono', monospace;" rel="nofollow">Goodreads Quotes</a>
                     </div>
                 </div>
             </div>
@@ -337,6 +364,22 @@
 </section>
 
 <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<!-- Force Goodreads widget fonts after external scripts load -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+            // Override any Goodreads-injected styles
+            var allElements = document.querySelectorAll('#gr_custom_widget_1770574610 *, #gr_challenge_11680 *, .gr-quote-widget-container *, #gr_quote_body *');
+            allElements.forEach(function(el) {
+                el.style.fontFamily = "'IBM Plex Mono', monospace";
+            });
+            // Hide goodreads logo in currently reading
+            var centers = document.querySelectorAll('.gr_custom_container_1770574610 > center');
+            centers.forEach(function(el) { el.style.display = 'none'; });
+        }, 2000);
+    });
+</script>
 
 </body>
 </html>
